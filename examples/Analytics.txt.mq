@@ -1,0 +1,52 @@
+                      |
+  {logo}         {<-} |  {h} / Analytics                                  {s}..Search  |  {u}..Nickname..v
+                      |
+  Dashboard....{dshb} |--------------------------------------------------------------------------------------
+  Campaigns....{cmpn} |
+* Analytics...{stats} |   # Analytics                                     [ Export to  v] [* Get report *]
+  Billing.......{usd} |
+                      |--------------------------------------------------------------------------------------
+                      |
+                      |   Period:        Breakdown by:     Group by:    Campaign:        Country:
+                      |   _Today___[v]   _None_______[v]   _Site__[v]   _Campaign__[v]   _UK____[v]
+                      |
+                      |--------------------------------------------------------------------------------------
+                      |   Date        Campaign    Site   Country   Impressions     Conversions     Actions
+                      |--------------------------------------------------------------------------------------
+                      |   22.09.2015  Cmp Name    4567   234       4546            3489            {block}
+                      |   22.09.2015  Cmp Name    4567   234       4546            3489            {block}
+                      |   22.09.2015  Cmp Name    4567   234       4546            3489            {block}
+                      |   22.09.2015  Cmp Name    4567   234       4546            3489            {block}
+                      |   22.09.2015  Cmp Name    4567   234       4546            3489            {block}
+                      |   22.09.2015  Cmp Name    4567   234       4546            3489            {block}
+                      |   22.09.2015  Cmp Name    4567   234       4546            3489            {block}
+                      |
+                      |
+                      |
+                      |
+                      |
+                      |
+
+--
+Analytics.details
+# should look like https://www.notism.io/-/b85a0bf2a1897f885e371f18f1#design/ef190106779d4864f37a4db2a
+
+Menus:
+  Export to:
+  - csv
+  - xls
+  - json
+
+Images:
+  logo: /images/logo.png
+
+Icons: # http://getbootstrap.com/components/#glyphicons
+  <-:    menu-left
+  h:     home
+  s:     search
+  u:     user
+  dshb:  th
+  cmpn:  folder-close
+  block: ban-circle
+
+
